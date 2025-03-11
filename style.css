@@ -1,9 +1,9 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: #d12a2a;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-button: #592bfe;
+    --color-button-hover: #20a7e5;
     --color-text: #444444;
     --color-white: #FFFFFF;
 }
@@ -39,6 +39,14 @@ body {
     padding: 40px 0 0;
 }
 
+.header-banner img {
+    max-width: 100%;
+    height: auto;
+    width: 500px; 
+    margin-top: 60px; 
+    margin-right: 40px; 
+}
+
 /* Sección de entrada */
 .input-section {
     flex: 60%;
@@ -55,9 +63,9 @@ body {
 /* Títulos */
 .main-title {
     font-size: 48px;
-    font-family: "Merriweather", serif;
+    font-family: "Arial"; 
     font-weight: 900;
-    font-style: italic;
+    font-style: fantasy;
     color: var(--color-white);
 }
 
@@ -134,10 +142,32 @@ ul {
     margin: 20px 0;
 }
 
+.name-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.name-list li {
+    list-style: none;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin: 5px;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    flex: 1 1 calc(50% - 10px); /* Ajuste para mostrar dos columnas */
+}
+
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
-    font-size: 22px;
+    color: #3f05df;
+    font-size: 16px;
     font-weight: bold;
     text-align: center;
 }
