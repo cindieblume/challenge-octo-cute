@@ -21,12 +21,12 @@ El proyecto utiliza JavaScript para gestionar la lógica del juego. Aquí hay un
 - **lanzarConfettiYSonido()**: Lanza una animación de confetti y reproduce un sonido de celebración al finalizar el sorteo.
 
 ## Capturas de Pantalla
-![challenge-octo-cute](assets/captura.png)
-![challenge-octo-cute](assets/captura1.png)
+![challenge-octo-cute](assets/captura.png.png)
+![challenge-octo-cute](assets/captura1.png.png)
 *Captura de pantalla mostrando la interfaz del juego.*
 
 ## Videos
-[challenge-octo-cute](assets/miVideo)
+[challenge-octo-cute](assets/miVideo.mp4)
 *Video demostrando cómo añadir nombres y realizar el sorteo.*
 
 ## Instalación
